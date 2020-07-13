@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.result1</h1>
+    <br />
+    <h2>@ViewBag.result2</h2>
+    <br />
+    <h2>@ViewBag.result3</h2>
+
+
+    <br /><br /><hr />
+    <h1>Ürün</h1>
+    <h2>@ViewBag.product.ProductId</h2>
+    <h2>@ViewBag.product.ProductName</h2>
+    <h2>@ViewBag.product.ProductDescription</h2>
+    <h2>@ViewBag.product.ProductPrice</h2>
+
+
+    <br /><br />
+    <h1>Ürünler</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        @foreach (var item in ViewBag.products)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.ProductDescription</td>
+                <td>@(item.ProductPrice + "TL")</td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,7 @@
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\bin\WCFService.dll.config
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\bin\WCFService.dll
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\bin\WCFService.pdb
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\obj\Debug\WCFService.csprojAssemblyReference.cache
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\obj\Debug\WCFService.csproj.CoreCompileInputs.cache
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\obj\Debug\WCFService.dll
+D:\ProjectFolders\GitHub\.NetCore\WCFService\WCFService\obj\Debug\WCFService.pdb
